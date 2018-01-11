@@ -1,0 +1,59 @@
+@import "typography"
+@import "variables"
+@import "mixins"
+
+body
+	background: $white
+
+.top-info-bar
+	width: 100%
+	height: 50px
+	background: #efefef
+.icon-bar-left
+	ul
+		li
+			float: left
+			margin: 15px 0 0 10px
+			font-size: 12px
+			+relaway(400)
+			color: #727272
+			a
+				color: #727272
+				text-decoration: none
+				+transition(0.3s)
+				&:hover
+					border-bottom: 1px solid #727272
+.info-bar-social-icon
+	ul
+		li
+			float: left
+			margin: 15px 0 0 35px
+			a
+				color: #707070
+				i
+					font-size: 20px
+					+transition(0.3s)
+					&.fa-facebook:hover
+						color: #3b5998
+					&.fa-twitter:hover
+						color: #55acee
+					&.fa-google-plus:hover
+						color: #dd4b39
+					&.fa-linkedin:hover
+						color: #007bb5
+					&.fa-youtube:hover
+						color: #ff0000
+.top-nav
+	height: 100px
+	.nav-menu
+		margin-top: 40px
+		a
+			color: #727272
+			text-decoration: none
+			font-size: 16px
+			+relaway(400)
+			margin: 0 0 0 35px
+			+transition(0.2s)
+			padding-bottom: 2px
+			&:hover
+				border-bottom: 2px solid #3498db

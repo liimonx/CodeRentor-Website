@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
+body {
+  background: #ffffff;
+}
+
+.top-info-bar {
+  width: 100%;
+  height: 50px;
+  background: #efefef;
+}
+
+.icon-bar-left ul li {
+  float: left;
+  margin: 15px 0 0 10px;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #727272;
+}
+
+.icon-bar-left ul li a {
+  color: #727272;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon-bar-left ul li a:hover {
+  border-bottom: 1px solid #727272;
+}
+
+.info-bar-social-icon ul li {
+  float: left;
+  margin: 15px 0 0 35px;
+}
+
+.info-bar-social-icon ul li a {
+  color: #707070;
+}
+
+.info-bar-social-icon ul li a i {
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.info-bar-social-icon ul li a i.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.info-bar-social-icon ul li a i.fa-twitter:hover {
+  color: #55acee;
+}
+
+.info-bar-social-icon ul li a i.fa-google-plus:hover {
+  color: #dd4b39;
+}
+
+.info-bar-social-icon ul li a i.fa-linkedin:hover {
+  color: #007bb5;
+}
+
+.info-bar-social-icon ul li a i.fa-youtube:hover {
+  color: #ff0000;
+}
+
+.top-nav {
+  height: 100px;
+}
+
+.top-nav .nav-menu {
+  margin-top: 40px;
+}
+
+.top-nav .nav-menu a {
+  color: #727272;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 0 0 0 35px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  padding-bottom: 2px;
+}
+
+.top-nav .nav-menu a:hover {
+  border-bottom: 2px solid #3498db;
+}
+
+/*# sourceMappingURL=style.css.map */
